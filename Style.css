@@ -1,0 +1,326 @@
+/* --------- Start Nav Bar ----------- */
+.Nav {
+  background-color: #272c358c;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  padding: 20px 0px;
+}
+.Nav hr {
+  width: 80%;
+  margin: 10px auto;
+}
+.Nav .Top-Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav .nav-cnter {
+  text-align: center;
+}
+.Nav .nav-cnter input {
+  padding: 4px 10px;
+  border-radius: 5px 0px 0px 5px;
+}
+.Nav .nav-cnter .fa {
+  padding: 10px;
+  background-color: #495057;
+  margin-left: -7px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.Nav .nav-cnter .fa:hover {
+  background-color: #d2691e;
+}
+.Nav .nav-left {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #a7a7a7;
+}
+.Nav .nav-left a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+.Nav .nav-left .fa {
+  transition: all 1s;
+}
+.Nav .nav-left .fa:hover {
+  color: #d2691e;
+}
+.Nav .Nav-bottom-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav .Nav-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav .Nav-bottom a {
+  text-decoration: none;
+  color: #a7a7a7;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.Nav .Nav-bottom {
+  position: relative;
+}
+/* .Nav .Nav-bottom a:hover {
+  border-top: solid 1px #d2691e;
+} */
+
+/* ----------- Start Slider ---------- */
+.slider {
+  z-index: 5;
+}
+.slider {
+  background-image: url(images/slider-image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+}
+.slider .text-img {
+  background-color: rgba(0, 0, 0, 0.356);
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+}
+
+.slider .text-img button {
+  background-color: #a7a7a7;
+  border: none;
+  padding: 5px;
+  width: 230px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #353c4e;
+  font-weight: 900;
+  transition: all 1s;
+}
+.slider .text-img button:hover {
+  box-shadow: 235px 0px 1px 1px inset #d2691e;
+}
+
+.slider .text-img h1 {
+  font-size: 45px;
+}
+/* ----------- End Slider ---------- */
+
+/* ----------- Start About ---------- */
+.About {
+  background-color: #a7a7a794;
+  padding: 40px;
+  border-radius: 30px;
+}
+.About .about-img {
+  width: 100%;
+}
+.About .about-img .img-1 {
+  width: 50%;
+  translate: 51% 27%;
+  border-radius: 15px;
+}
+.About .about-img .img-2 {
+  width: 49%;
+  position: relative;
+  translate: -94% 0%;
+  border-radius: 15px;
+}
+/* ----------- End About ---------- */
+
+/* ------------ Start Our News ------------ */
+
+.our-news .card {
+  transition: all 1s;
+}
+.our-news .card:hover {
+  transform: scale(0.9);
+  box-shadow: 3px 3px 30px gray;
+}
+/* -------------- Start Our-Chefs --------------- */
+.Our-Chefs .imghvr-slide-up figcaption {
+  background-color: rgba(0, 0, 0, 0.466);
+  text-align: center;
+  color: gainsboro;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.Our-Chefs .imghvr-slide-up {
+  max-width: 90%;
+}
+.Our-Chefs .imghvr-slide-up .fab {
+  font-size: 30px;
+  padding: 0 5px;
+  transition: all 0.5s;
+}
+.Our-Chefs .imghvr-slide-up .fab:hover {
+  color: #d2691e;
+}
+/* -------------- Start Special Menu --------------- */
+
+.Special-Menu .menu-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.Special-Menu .Menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.Special-Menu .Menu .imghvr-zoom-in {
+  width: 100%;
+  height: 200px;
+}
+.Special-Menu .imghvr-zoom-in figcaption {
+  background-color: rgba(210 180 140 / 74%);
+  transition: all 1s;
+}
+.all-menu,
+.Drinks-menu,
+.Lunch-menu,
+.Dinner-menu {
+  /* width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; */
+  display: none;
+}
+:target {
+  display: contents;
+}
+/* ------------ The Team ----------- */
+
+.Team-Img {
+  width: 100%;
+}
+.Team-Img .item {
+  width: 90%;
+  text-align: center;
+  margin: 20px 0;
+  transition: all 1.5s;
+  padding-bottom: 10px;
+}
+.Team-Img .item:hover {
+  box-shadow: 0px 1px 25px 0px #d2691e;
+  margin-top: 10px;
+}
+.Team-Img .item img {
+  width: 90%;
+  border-radius: 50%;
+  transition: all 2s;
+}
+.Team-Img .item:hover > img {
+  border-radius: 0;
+}
+.Team-Img .item .fab {
+  font-size: 20px;
+  background-color: #d55107;
+  padding: 15px;
+  color: #fff;
+  margin: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.Team-Img .item .fab:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+/* ------------ Start Modal ------------ */
+.modal .modal-body input {
+  width: 49.5%;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: solid 1px #a7a7a7;
+  color: #a7a7a7;
+}
+.modal .modal-body form .btn {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.modal .modal-body form .btn-REGISTER {
+  background-color: #d2691e;
+}
+.modal .modal-body form .btn-FACEBOOK {
+  background-color: #a7a7a7;
+  color: #1f232f;
+}
+/* ------------ End Model ------------ */
+/* ------------ Start footer ------------ */
+footer .row {
+  background-color: #1f232f;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+footer h4 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+footer hr {
+  color: #fff;
+}
+footer a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+footer .fas,
+footer .far {
+  color: #a7a7a7;
+  padding-right: 10px;
+}
+footer .Work-Hours {
+  color: #a7a7a7;
+}
+footer .Work-Hours b {
+  font-size: 19px;
+}
+footer .font {
+  color: #a7a7a7;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .font .fab:hover {
+  color: #fff;
+}
+footer .LOG-IN .submit {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 68px;
+}
+footer .LOG-IN .submit .btn {
+  width: 47%;
+  background-color: #a7a7a7;
+}
+footer .LOG-IN .submit .btn.REGISTER {
+  background-color: #d2691e;
+  color: #fff;
+}
+footer .LOG-IN label {
+  color: #a7a7a7;
+}
